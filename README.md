@@ -21,18 +21,7 @@ Firmware and hardware for battery SOC and generator control
   - SOC
 
 ### Tasks
-1. System Control
-  - System coordination actions
-  - take inputs on queue from LORA. buttons, INA, and coordinate actions
-  > LORA - gen start from remote
-  > LORA - System Setting Change
-  > BUTTON - pressed Short
-  > BUTTON - pressed Long
-  > BUTTON - double pressed
-  > INA - New Data
-
-  - format outgoing LORA message packets
-  - translate incoming LORA message packets
+1. [obsidian://open?vault=PowerTrailer&file=System%20Control]
 2. button monitoring
 3. INA polling
   - interval?
