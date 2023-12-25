@@ -43,12 +43,12 @@ Firmware and hardware for battery SOC and generator control
      - 5m
      - 60m
      - 24h
-  - calculation of SOC
-    - Stored at ??min intervals??
-  - send data to System Control task for transmission/display
+   - calculation of SOC
+   - Stored at ??min intervals??
+   - send data to System Control task for transmission/display
 4. Display Task
-  - receive messages from system control task for display
-  - cycle through display values from system control
+   - receive messages from system control task for display
+   - cycle through display values from system control
  5. LORA Task
-  - Take data sent from system task and transmit
-  - receive data and send to sysstem task
+   - Take data sent from system task and transmit
+   - receive data and send to sysstem task
