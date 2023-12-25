@@ -30,8 +30,8 @@ Firmware and hardware for battery SOC and generator control
      > BUTTON - pressed Long
      > BUTTON - doiuble pressed
      > INA - New Data
-  - format outgoing LORA message packets
-  - translate incoming LORA message packets
+   - format outgoing LORA message packets
+   - translate incoming LORA message packets
 2. button monitoring
 3. INA polling
    - interval?
