@@ -1,11 +1,13 @@
 #include <Arduino.h>
+#include <INA226.h>
+#include <Wire.h>
+
 
 // put function declarations here:
-int myFunction(int, int);
+void INA_Task(void *params);
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  Wire.begin(); // will this work with OLED??
 }
 
 void loop() {
@@ -13,6 +15,8 @@ void loop() {
 }
 
 // put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+
+void INA_Task(void *params)
+{
+vtas
 }
